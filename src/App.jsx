@@ -14,6 +14,7 @@ function App() {
     <main className="flex-1">
       <Manager/>
     </main>
+  
      
      <Footer/>
 
