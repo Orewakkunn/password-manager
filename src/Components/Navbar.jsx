@@ -20,7 +20,7 @@ const Navbar = () => {
           </li>
         </ul>
         <button className='order-2 sm:order-none'>
-          <a href="https://github.com" target='blank'><img className="w-10 h-10" src="/github.svg" alt="github-logo" /></a>
+          <a href="https://github.com" target='blank'><img className="w-10 h-10" src="github.svg" alt="github-logo" /></a>
         </button>
 
       </div>
