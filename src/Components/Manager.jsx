@@ -21,10 +21,10 @@ const Manager = () => {
 
   const showPassword = () => {
     if (ref.current.src.includes("/hide-eye.svg")) {
-      ref.current.src = "/Show-icon.svg";
+      ref.current.src = "Show-icon.svg";
       passwordref.current.type = "text";
     } else {
-      ref.current.src = "/hide-eye.svg";
+      ref.current.src = "hide-eye.svg";
       passwordref.current.type = "password";
     }
   };
@@ -166,7 +166,7 @@ const Manager = () => {
                 className="absolute inset-y-0 right-0 flex items-center pr-4"
               >
                 <span className="">
-                  <img ref={ref} src="/hide-eye.svg" />
+                  <img ref={ref} src="hide-eye.svg" />
                 </span>
               </div>
             </div>
@@ -178,7 +178,7 @@ const Manager = () => {
           >
             <img
               className="w-9 h-10  "
-              src="/add2-icon.svg"
+              src="add2-icon.svg"
               alt="addbtn-img trigger:hover"
             />
             Save Password
@@ -241,7 +241,7 @@ const Manager = () => {
                           title={`Copy ${field.label.toLowerCase()}`}
                           aria-label={`Copy ${field.label.toLowerCase()}`}
                         >
-                          <img className="w-5" src="/copy-icon.svg" alt="" />
+                          <img className="w-5" src="copy-icon.svg" alt="" />
                         </button>
                       </div>
                     ))}
@@ -253,7 +253,7 @@ const Manager = () => {
                         title="Edit password"
                         aria-label={`Edit password for ${item.site}`}
                       >
-                        <img className="h-5 w-5" src="/edit-icon.svg" alt="" />
+                        <img className="h-5 w-5" src="edit-icon.svg" alt="" />
                       </button>
                       <button
                         type="button"
@@ -262,7 +262,7 @@ const Manager = () => {
                         title="Delete password"
                         aria-label={`Delete password for ${item.site}`}
                       >
-                        <img className="h-5 w-5" src="/delete-icon.svg" alt="" />
+                        <img className="h-5 w-5" src="delete-icon.svg" alt="" />
                       </button>
                     </div>
                   </div>
