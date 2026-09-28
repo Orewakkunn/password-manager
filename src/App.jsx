@@ -14,7 +14,10 @@ function App() {
     <main className="flex-1">
       <Manager/>
     </main>
+<<<<<<< HEAD
   
+=======
+>>>>>>> ef560046708c8aa6d5819f42ff8f96dcd9827c71
      
      <Footer/>
 
